@@ -246,7 +246,7 @@ app.get('/', (req, res) => {
     res.send("🚀 GadgetVerse Server Running");
 });
 
-// app.listen(PORT, () => {
-//     console.log(`✅ Server listening on http://localhost:${PORT}`);
-//     console.log(`📡 API Base: http://localhost:${PORT}/api`);
-// });
+app.listen(PORT, () => {
+    console.log(`✅ Server listening on http://localhost:${PORT}`);
+    console.log(`📡 API Base: http://localhost:${PORT}/api`);
+});
